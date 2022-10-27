@@ -1,3 +1,5 @@
+package EOF;
+
 import java.io.*;
 
 /**
@@ -5,12 +7,12 @@ import java.io.*;
  */
 public class BufferedReaderEOF {
     public static void main(String[] args) throws IOException {
-        //BufferedReader & BufferedWriter
+        //BufferedReader & BufferedWriter 객체 생성
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         String str = "";
         /**
-         * br로 읽어온 후 bw로 쓰기
+         * bufferdreader로 읽어온 후 bufferedwriter로 쓰기
          */
         while ((str = br.readLine()) != null) {
             bw.write(str + "\n");

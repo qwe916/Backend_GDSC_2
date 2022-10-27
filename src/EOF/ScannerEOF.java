@@ -1,3 +1,5 @@
+package EOF;
+
 import java.util.Scanner;
 
 /**
@@ -9,7 +11,7 @@ public class ScannerEOF {
          * Scanner 객체 생성
          */
         Scanner scan = new Scanner(System.in);
-        while (scan.hasNext()) {
+        while (scan.hasNext()) {//입력한 값 출력
             System.out.println(scan.nextLine());
         }
         System.out.println("Scanner EOF");
