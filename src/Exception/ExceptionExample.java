@@ -1,3 +1,5 @@
+package Exception;
+
 import java.util.Scanner;
 
 /**
@@ -15,9 +17,9 @@ public class ExceptionExample {
         try {
             result = a / b;
             System.out.println(result);
-        } catch (Exception e) {
+        } catch (Exception e) {//예외 발생시
             System.out.println("0으로는 나눌 수 없다.");
-        } finally {
+        } finally {//예외 처리와 상관 없이 실행되는 finally
             System.out.println("재밌는 java study");
         }
     }

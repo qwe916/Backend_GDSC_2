@@ -1,16 +1,15 @@
+package Exception;
+
 import java.util.Scanner;
 
 /**
  * throws 문
  */
 public class ThrowExample {
-    /**
-     * 예외처리 로직
-     * @param choice
-     * @throws NotFunnyException
-     */
+
     public void checkChoice(int choice) throws NotFunnyException {
         if (choice == 1) {
+            //예외 발생
             throw new NotFunnyException();
         } else {
             System.out.println("집에 가고 싶습니다.");
