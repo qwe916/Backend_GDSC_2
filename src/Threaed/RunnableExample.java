@@ -1,7 +1,9 @@
+package Threaed;
+
 import java.util.ArrayList;
 
 /**
- * Runnable 인터페이스를 상속 받는 RunnableExample
+ * Runnable 인터페이스를 상속 받는 Threaed.RunnableExample
  */
 public class RunnableExample implements Runnable {
     //순서 변수
